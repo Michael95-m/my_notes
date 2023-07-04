@@ -1,3 +1,5 @@
+## Docker compose file for running services
+
 This is the docker compose file used to run the services.
 
 ```
@@ -45,3 +47,6 @@ services:
     restart: always
 
 ```
+
+- The docker compose version is 3.7
+- There is one volume to store the data and there are two networks to connect between these services. Two network is called **front-tier** and **back-tier**. **Postgres** service can only be accessed to back-iter network and other two services can be accessed to both networks.
