@@ -35,14 +35,6 @@ We can also monitor the other things like
 <img src="img/ml_monitoring_architecture.png" alt="Model monitoring Architecture" style="vertical-align:middle;margin:0px 50px">
 <br>
 
-## Baseline model for batch monitoring example
-
-- In order to run batch monitoring, we will need to run three services by using **docker compose**.
-
-1. postgres database to store the logs
-2. adminer which is a database management tools
-3. grafana dashboard to visualize the metrics.
-
 
 
 
