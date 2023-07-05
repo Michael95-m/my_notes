@@ -140,6 +140,16 @@ report.run(reference_data=train_data, current_data=val_data, column_mapping=colu
 report.show(mode='inline')
 ```
 
+This is how we see monitoring report in jupyter notebook.
+
+<img src="img/prediction_drift_1.png" alt="Prediction drift" style="vertical-align:middle;margin:0px 50px">
+
+<img src="img/prediction_drift_2.png" alt="Prediction drift" title="Prediction Drift" style="vertical-align:middle;margin:0px 50px"><br>
+
+<img src="img/dataset_drift.png" alt="Dataset drift" title="Dataset Drift" style="vertical-align:middle;margin:0px 50px"> <br>
+
+<img src="img/missing_values.png" alt="Missing values" title="Missing Values Drift" style="vertical-align:middle;margin:0px 50px"><br>
+
 - We can also create the json data from the report to check the quantitive measures of the respective drift.
 
 ```python
