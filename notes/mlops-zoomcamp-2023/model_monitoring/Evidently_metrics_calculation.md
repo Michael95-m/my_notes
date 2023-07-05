@@ -20,10 +20,18 @@ First, we need to install all the [related libraries](./Requirements.md) and run
 docker compose up
 ```
 
+If you run for the first time, use 
+
+```bash
+docker compose up --build
+```
+
 Start the prefect server with the following command:
 ```bash
 prefect server start
 ```
+
+We could specify the grafana datasource configureation in **config** folder by using the file named **grafana_datasources.yaml**. Check how to create it in [here](./Grafana_data_source.md)
 
 ## Step-1: Importing the library
 
@@ -94,7 +102,7 @@ report = Report(metrics = [
 
 ```
 
-### Step-3: Prepare the database
+## Step-3: Prepare the database
 
 ```python
 @task
