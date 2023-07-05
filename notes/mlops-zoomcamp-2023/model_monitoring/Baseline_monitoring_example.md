@@ -1,6 +1,12 @@
-# Baseline model for batch monitoring example
+# Baseline monitoring example
 
 In this example, [Newyork city taxi dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) is used. Green taxi dataset of Janurary 2021 will be used as training and validation datasets.
+
+This is how to create the baseline model first and  the monitoring report in the jupyter notebook.
+
+To monitor the data and model quality, we need to have two datasets. One is **reference dataset** which is usually the **validation dataset** or **training dataset**  used in model training(**validation dataset** is more preferrred). Another one is the **current dataset** we want to predict and monitor.
+
+In this baseline example, **validation data** is used as **current dataset** and **training data** is used as **reference dataset**.
 
 ## Step-1: Model Creation using training and validation data and Evaluation
 
