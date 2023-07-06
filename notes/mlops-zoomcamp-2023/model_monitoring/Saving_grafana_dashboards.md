@@ -30,3 +30,5 @@ providers:
 ```
 
 We also need to copy the **dashboard configuration json data** from the settings of the grafana dashboard. And place it inside **data_drift.json** in **data** folder.
+
+[Prev](./Evidently_metrics_calculation.md) | [Next](./Debugging.md)
