@@ -35,6 +35,20 @@ We can also monitor the other things like
 <img src="img/ml_monitoring_architecture.png" alt="Model monitoring Architecture" style="vertical-align:middle;margin:0px 50px">
 <br>
 
+## Order
+
+This is the order to read.
+
+1. Environment Setup <br>
+    1.1 [Installation of requirements](./Requirements.md) <br>
+    1.2 [Creation of Docker_compose](./Docker-compose.md)<br>
+    1.3 [Setting Data Source in Grafana Dashboard](./Grafana_data_source.md)
+2. [Baseline Monitoring](./Baseline_monitoring_example.md)
+3. [Metrics calcuation in Evidently](./Evidently_metrics_calculation.md)
+4. [Saving Grafana Dashboards](./Saving_grafana_dashboards.md)
+5. [Debugging](./Debugging.md)
+
+[Next](./Requirements.md)
 
 
 

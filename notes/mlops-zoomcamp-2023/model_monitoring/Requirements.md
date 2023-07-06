@@ -17,3 +17,5 @@ scikit-learn
 jupyter
 matplotlib
 ```
+
+[Prev](./README.md) | [Next](./Docker-compose.md)

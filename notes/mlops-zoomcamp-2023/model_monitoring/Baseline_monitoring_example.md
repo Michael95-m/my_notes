@@ -172,6 +172,8 @@ print(result['metrics'][1]['result']['number_of_drifted_columns'])
 print(result['metrics'][2]['result']['current']['share_of_missing_values'])
 ```
 
+[Prev](./Grafana_data_source.md) | [Next](./Evidently_metrics_calculation.md)
+
 
 
 

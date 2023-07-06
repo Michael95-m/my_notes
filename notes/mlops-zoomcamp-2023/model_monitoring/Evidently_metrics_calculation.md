@@ -197,3 +197,5 @@ if __name__ == '__main__':
 - Prefect flow can be visualized at (http://localhost:4200/)
 
 <img src="img/prefect_server.png" alt="Prefect Server" style="vertical-align:middle;margin:0px 50px"><br>
+
+[Prev](./Baseline_monitoring_example.md) | [Next](./Saving_grafana_dashboards.md)

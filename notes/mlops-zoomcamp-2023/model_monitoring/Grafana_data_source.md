@@ -23,3 +23,5 @@ datasources:
 
 - **PostgreSQL**: A PostgreSQL database is set up as a data source. The configuration specifies that Grafana should connect to a service named **db** on port **5432**, using the database named **test**. The connection is made using the username **postgres** and the password **example**
 
+[Prev](./Docker-compose.md) | [Next](./Baseline_monitoring_example.md)
+

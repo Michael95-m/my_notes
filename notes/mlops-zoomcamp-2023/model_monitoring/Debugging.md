@@ -92,7 +92,7 @@ Checking **TestSuite** in **inline** mode
 test_suite.show(mode='inline')
 ```
 
-<img src="img/test_suite.png" alt="TestSuite" style="vertical-align:middle;margin:0px 50px">
+<img src="img/test_suite.png" alt="TestSuite" style="vertical-align:middle;margin:0px 50px"><br>
 
 Generating **Report**
 
@@ -107,3 +107,5 @@ report.show(mode='inline')
 ```
 
 <img src="img/report.png" alt="Report" style="vertical-align:middle;margin:0px 50px">
+
+[Prev](./Saving_grafana_dashboards.md)
