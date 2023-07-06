@@ -35,7 +35,11 @@ We can also monitor the other things like
 <img src="img/ml_monitoring_architecture.png" alt="Model monitoring Architecture" style="vertical-align:middle;margin:0px 50px">
 <br>
 
-## Order
+## Example Folder Struture
+
+The code example can be found at [here](https://github.com/Michael95-m/mlops-zoomcamp/tree/main/Homework/Homework-5).
+
+## Reading Order
 
 This is the order to read.
 
