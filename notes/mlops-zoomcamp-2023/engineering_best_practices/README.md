@@ -19,6 +19,12 @@ Best Practices which can applied to our codebase include:
 - Makefiles are greate for the automation tasks.
 
 
-## Not finished yet
+## Reading Order
 
+1. [Unit test](./Unit_test.md)
+2. [Testing cloud services](./CloudTest.md)
+3. [Linting and Formatting](./Linting_Formatting.md)
+4. [Pre-commit hook](./PreCommit-hook.md)
+5. [Make and Makefile](./Makefile.md)
 
+[Next](./Unit_test.md)
