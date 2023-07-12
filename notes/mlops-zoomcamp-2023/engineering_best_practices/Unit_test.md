@@ -1,20 +1,18 @@
-## Unit Test
+# Unit Test
 
 **Unit Testing** is checking a specific unit of the entire pipeline. 
 
 To write unit test, our code shouldn't have much global variables (Instead of having global variables, we can create some class and function for that). And also large function should be divided into small functions.  Functions shouldn't be very long too. 
 
-For unit test, **pytest** library is used. First, we need to create a folder named **tests** and add **__init__.py** which can be empty file inside that folder. 
+For unit test, `pytest` library is used. First, we need to create a folder named `tests` and add `__init__.py` which can be empty file inside that folder. 
 
-We can install pytest by using pipenv like that.
+We can install pytest by using `pipenv` like that.
 
-```
+```bash
 pipenv install --dev pytest
 ```
 
-We can write our test cases in files whose name starts with **test_** or ends with **_test.py**. pytest will look for these files in the specified directory.
-
-Inside these files, we can write test functions. These functions' name must start with **test_** or ends with **_test**
+We can write our test cases in files whose name starts with `test_` or ends with `test.py`. The naming convention is  also the same for writing functions.
 
 Below is the sample test functions 
 
@@ -31,6 +29,7 @@ def read_text(file):
 
 def test_base64_decode():
     ## this test unit check the function of base64 decoding.
+    ## just loading some load decoded text from a file for coding standard
     base64_input = read_text('data.b64')
 
     actual_result = model.base64_decode(base64_input)
