@@ -2,8 +2,10 @@
 
 We should run all the tools relating with [Linting and Formatting](./Linting_Formatting.md) before commiting. The problem is that we might forget to run these commands sometimes. In order to prevent that, we should have `precommit hooks`.
 
-In order to use precommit hooks, we should run the following command to create `.pre-commit-config.yaml`
+In order to use precommit hooks, we should install `pre-commit`and create a file named `.pre-commit-config.yaml` by the following procedures.
 ```
+pipenv install --dev pre-commit
+pre-commit install
 pre-commit sample-config > .pre-commit-config.yaml
 ```
 
